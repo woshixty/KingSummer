@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KQtNetworkTest", "KQtNetworkTest.vcxproj", "{B46CD0BD-8F41-4252-BFD0-9B56A108FC47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B46CD0BD-8F41-4252-BFD0-9B56A108FC47}.Debug|x64.ActiveCfg = Debug|x64
+		{B46CD0BD-8F41-4252-BFD0-9B56A108FC47}.Debug|x64.Build.0 = Debug|x64
+		{B46CD0BD-8F41-4252-BFD0-9B56A108FC47}.Release|x64.ActiveCfg = Release|x64
+		{B46CD0BD-8F41-4252-BFD0-9B56A108FC47}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {052976E3-6A63-486A-B3D0-3252460EF3BA}
+	EndGlobalSection
+EndGlobal

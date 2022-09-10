@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>KHomePage</class>
+ <widget class="QWidget" name="KHomePage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>680</width>
+    <height>470</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>680</width>
+    <height>470</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>680</width>
+    <height>470</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="mypage">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>5</y>
+     <width>72</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Microsoft YaHei;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;我的首页&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="m_refresh_btn">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>5</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Microsoft YaHei;</string>
+   </property>
+   <property name="text">
+    <string>刷新</string>
+   </property>
+   <property name="icon">
+    <iconset resource="kmainwindow.qrc">
+     <normaloff>:/homepage/icons/refresh.png</normaloff>:/homepage/icons/refresh.png</iconset>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="m_todocontent_edit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>600</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 8px;
+font-family: Microsoft YaHei;
+border: none;
+background: transparent;
+background-color: rgb(4,181,173);</string>
+   </property>
+   <property name="placeholderText">
+    <string> 输入内容后，回车创建成功</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="m_tips">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>5</y>
+     <width>160</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Microsoft YaHei;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; 点击添加新建待办&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="m_not_arrange_btn">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Microsoft YaHei;
+text-align: left;
+border: none;
+background: transparent;
+border-radius: 8px;</string>
+   </property>
+   <property name="text">
+    <string>未安排</string>
+   </property>
+   <property name="icon">
+    <iconset resource="kmainwindow.qrc">
+     <normaloff>:/homepage/icons/icon-unchoose.png</normaloff>:/homepage/icons/icon-unchoose.png</iconset>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S, Ctrl+S</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="m_today_todo_btn">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>90</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Microsoft YaHei;
+text-align: left;
+border: none;
+background: transparent;
+border-radius: 8px;</string>
+   </property>
+   <property name="text">
+    <string>今天</string>
+   </property>
+   <property name="icon">
+    <iconset resource="kmainwindow.qrc">
+     <normaloff>:/homepage/icons/icon-unchoose.png</normaloff>:/homepage/icons/icon-unchoose.png</iconset>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="m_later_seven_days_btn">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>90</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Microsoft YaHei;
+text-align: left;
+border: none;
+background: transparent;
+border-radius: 8px;</string>
+   </property>
+   <property name="text">
+    <string>未来七天</string>
+   </property>
+   <property name="icon">
+    <iconset resource="kmainwindow.qrc">
+     <normaloff>:/homepage/icons/icon-unchoose.png</normaloff>:/homepage/icons/icon-unchoose.png</iconset>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="m_later_more_days_btn">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>90</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Microsoft YaHei;
+text-align: left;
+border: none;
+background: transparent;
+border-radius: 8px;</string>
+   </property>
+   <property name="text">
+    <string>以后</string>
+   </property>
+   <property name="icon">
+    <iconset resource="kmainwindow.qrc">
+     <normaloff>:/homepage/icons/icon-unchoose.png</normaloff>:/homepage/icons/icon-unchoose.png</iconset>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="m_todo_list">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>661</width>
+     <height>340</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:none;
+background:transparent;
+background-color: rgb(225, 225, 225);
+border-radius: 16px;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="m_refresh_btn_2">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>5</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Microsoft YaHei;</string>
+   </property>
+   <property name="text">
+    <string>排序</string>
+   </property>
+   <property name="icon">
+    <iconset resource="kmainwindow.qrc">
+     <normaloff>:/groupitem/icons/sort.png</normaloff>:/groupitem/icons/sort.png</iconset>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="kmainwindow.qrc"/>
+ </resources>
+ <connections/>
+</ui>

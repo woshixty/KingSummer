@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>KGroupItem</class>
+ <widget class="QWidget" name="KGroupItem">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>200</width>
+    <height>30</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>200</width>
+    <height>30</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>200</width>
+    <height>30</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>KGroupItem</string>
+  </property>
+  <widget class="QPushButton" name="m_move_btn">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>5</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:none; background:transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="kmainwindow.qrc">
+     <normaloff>:/groupitem/icons/move.png</normaloff>:/groupitem/icons/move.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="m_more_btn">
+   <property name="geometry">
+    <rect>
+     <x>173</x>
+     <y>5</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:none; background:transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="kmainwindow.qrc">
+     <normaloff>:/groupitem/icons/more_android_light.png</normaloff>:/groupitem/icons/more_android_light.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="m_group_name_btn">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>1</y>
+     <width>135</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Microsoft YaHei;
+border:none; 
+background:transparent;
+text-align: left;</string>
+   </property>
+   <property name="text">
+    <string>Java（1）</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="kmainwindow.qrc"/>
+ </resources>
+ <connections/>
+</ui>

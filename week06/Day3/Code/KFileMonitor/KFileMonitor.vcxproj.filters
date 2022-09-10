@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="UI">
+      <UniqueIdentifier>{c3df6f48-9a53-4034-a23d-c2d5b8ffb706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service">
+      <UniqueIdentifier>{a38c7693-2ca2-48ae-9a4b-45b1e9e6c7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dao">
+      <UniqueIdentifier>{ea632d69-1895-48a0-9fad-e0fe75e7b538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="UI\Factory">
+      <UniqueIdentifier>{22b4e1a0-ffca-46d7-8e17-b926042ea87a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message">
+      <UniqueIdentifier>{a125fdcc-e95c-474f-92e9-cac3a84ef636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{8c82ef5a-632f-40ad-8c94-cf52562b0ee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service\FileMonitor">
+      <UniqueIdentifier>{d924f42b-6fed-4fcc-b479-e1c9dca40916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceFiles">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FormFiles">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Service\MessageConsumer">
+      <UniqueIdentifier>{cc8318eb-cbd9-41d3-bab6-24a1935bceb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\BasePage">
+      <UniqueIdentifier>{fb900ce3-0b12-4439-be24-0cc9edd27ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\MainWindow">
+      <UniqueIdentifier>{7ba796eb-ba57-4b28-85b3-5a6f4a37e63e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service\RecordTable">
+      <UniqueIdentifier>{4c892f82-6712-4f46-b1f2-85f21d5d42db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Dialog">
+      <UniqueIdentifier>{7697b3a0-9bc4-48c8-88af-819c516667ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\TopTool">
+      <UniqueIdentifier>{c9522ada-b22e-4d2f-9532-259f76f5ff20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\RightQuery">
+      <UniqueIdentifier>{d2935b8b-05c8-4a95-9515-8c1e6dbcc2b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\LeftConfig">
+      <UniqueIdentifier>{803f1e0e-45d4-448e-bc95-d97d56147918}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="kfilemonitor.qrc">
+      <Filter>ResourceFiles</Filter>
+    </QtRcc>
+    <QtUic Include="KMainWindow.ui">
+      <Filter>FormFiles</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="krecorddao.cpp">
+      <Filter>Dao</Filter>
+    </ClCompile>
+    <ClCompile Include="kuifactory.cpp">
+      <Filter>UI\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="kmessage.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="kmessagequeue.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="kmonitorrequest.cpp">
+      <Filter>Service\FileMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="kmonitorserver.cpp">
+      <Filter>Service\FileMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="kmonitorservice.cpp">
+      <Filter>Service\FileMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="kglobaldata.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="kmessageconsumer.cpp">
+      <Filter>Service\MessageConsumer</Filter>
+    </ClCompile>
+    <ClCompile Include="klistbasepage.cpp">
+      <Filter>UI\BasePage</Filter>
+    </ClCompile>
+    <ClCompile Include="kmainwindow.cpp">
+      <Filter>UI\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="krecordtableservice.cpp">
+      <Filter>Service\RecordTable</Filter>
+    </ClCompile>
+    <ClCompile Include="kprofileeditdialog.cpp">
+      <Filter>UI\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="kprofile.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="kprofiledao.cpp">
+      <Filter>Dao</Filter>
+    </ClCompile>
+    <ClCompile Include="kprofileutil.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="kmsgfilter.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ksqlmodelutil.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="kprofilepage.cpp">
+      <Filter>UI\LeftConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="kstatuspage.cpp">
+      <Filter>UI\LeftConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="kdirectorypage.cpp">
+      <Filter>UI\LeftConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="ktoolbar.cpp">
+      <Filter>UI\TopTool</Filter>
+    </ClCompile>
+    <ClCompile Include="kquerypage.cpp">
+      <Filter>UI\RightQuery</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="krecorddao.h">
+      <Filter>Dao</Filter>
+    </QtMoc>
+    <QtMoc Include="kmessage.h">
+      <Filter>Message</Filter>
+    </QtMoc>
+    <QtMoc Include="kmessagequeue.h">
+      <Filter>Utils</Filter>
+    </QtMoc>
+    <QtMoc Include="kmonitorrequest.h">
+      <Filter>Service\FileMonitor</Filter>
+    </QtMoc>
+    <QtMoc Include="kmonitorserver.h">
+      <Filter>Service\FileMonitor</Filter>
+    </QtMoc>
+    <QtMoc Include="kmonitorservice.h">
+      <Filter>Service\FileMonitor</Filter>
+    </QtMoc>
+    <QtMoc Include="kglobaldata.h">
+      <Filter>Utils</Filter>
+    </QtMoc>
+    <QtMoc Include="kmessageconsumer.h">
+      <Filter>Service\MessageConsumer</Filter>
+    </QtMoc>
+    <QtMoc Include="klistbasepage.h">
+      <Filter>UI\BasePage</Filter>
+    </QtMoc>
+    <QtMoc Include="kmainwindow.h">
+      <Filter>UI\MainWindow</Filter>
+    </QtMoc>
+    <QtMoc Include="krecordtableservice.h">
+      <Filter>Service\RecordTable</Filter>
+    </QtMoc>
+    <QtMoc Include="kprofileeditdialog.h">
+      <Filter>UI\Dialog</Filter>
+    </QtMoc>
+    <QtMoc Include="kprofile.h">
+      <Filter>Utils</Filter>
+    </QtMoc>
+    <QtMoc Include="kprofiledao.h">
+      <Filter>Dao</Filter>
+    </QtMoc>
+    <QtMoc Include="kprofileutil.h">
+      <Filter>Utils</Filter>
+    </QtMoc>
+    <QtMoc Include="ksqlmodelutil.h">
+      <Filter>Utils</Filter>
+    </QtMoc>
+    <QtMoc Include="kprofilepage.h">
+      <Filter>UI\LeftConfig</Filter>
+    </QtMoc>
+    <QtMoc Include="kstatuspage.h">
+      <Filter>UI\LeftConfig</Filter>
+    </QtMoc>
+    <QtMoc Include="kdirectorypage.h">
+      <Filter>UI\LeftConfig</Filter>
+    </QtMoc>
+    <QtMoc Include="ktoolbar.h">
+      <Filter>UI\TopTool</Filter>
+    </QtMoc>
+    <QtMoc Include="kquerypage.h">
+      <Filter>UI\RightQuery</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kuifactory.h">
+      <Filter>UI\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="kmsgfilter.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

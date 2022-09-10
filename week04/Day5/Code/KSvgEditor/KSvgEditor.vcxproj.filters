@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Shapes">
+      <UniqueIdentifier>{f960cf2a-74db-4a52-8b66-340e80ca4c68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{f52d6a81-4c59-4293-8097-444a2e1af201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\ToolBar">
+      <UniqueIdentifier>{9058f091-debc-40b9-a301-9bf276021998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\ParamBar">
+      <UniqueIdentifier>{5afb01aa-acee-49a4-b283-df5267bb6dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\ParamBar\Base">
+      <UniqueIdentifier>{ec1c53d6-ddd8-4fe9-8b57-d31a2f484ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\ParamBar\Box">
+      <UniqueIdentifier>{5e34b55c-b4dd-44fb-8e76-e975947a24c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\MenuBar">
+      <UniqueIdentifier>{372d363a-030e-42a0-aa18-ed15f396e4d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="ksvgeditor.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="ksvgeditor.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="ksvgeditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="ksvgeditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kglobaldata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kshapefactory.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="krect.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="kshape.cpp">
+      <Filter>Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="keditpage.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ktoolbar.cpp">
+      <Filter>UI\ToolBar</Filter>
+    </ClCompile>
+    <ClCompile Include="ktoolbutton.cpp">
+      <Filter>UI\ToolBar</Filter>
+    </ClCompile>
+    <ClCompile Include="kcanvasparamsbar.cpp">
+      <Filter>UI\ParamBar</Filter>
+    </ClCompile>
+    <ClCompile Include="ksvgmainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kparambox.cpp">
+      <Filter>UI\ParamBar\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="kvaluebox.cpp">
+      <Filter>UI\ParamBar\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="kcolorbox.cpp">
+      <Filter>UI\ParamBar\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="kchoosebox.cpp">
+      <Filter>UI\ParamBar\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="kparamsbar.cpp">
+      <Filter>UI\ParamBar\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="kmenubar.cpp">
+      <Filter>UI\MenuBar</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="ksvgmainwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="kglobaldata.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="kshapefactory.h">
+      <Filter>Shapes</Filter>
+    </QtMoc>
+    <QtMoc Include="krect.h">
+      <Filter>Shapes</Filter>
+    </QtMoc>
+    <QtMoc Include="keditpage.h">
+      <Filter>UI</Filter>
+    </QtMoc>
+    <QtMoc Include="ktoolbar.h">
+      <Filter>UI\ToolBar</Filter>
+    </QtMoc>
+    <QtMoc Include="ktoolbutton.h">
+      <Filter>UI\ToolBar</Filter>
+    </QtMoc>
+    <QtMoc Include="kcanvasparamsbar.h">
+      <Filter>UI\ParamBar</Filter>
+    </QtMoc>
+    <QtMoc Include="kparambox.h">
+      <Filter>UI\ParamBar\Base</Filter>
+    </QtMoc>
+    <QtMoc Include="kvaluebox.h">
+      <Filter>UI\ParamBar\Box</Filter>
+    </QtMoc>
+    <QtMoc Include="kcolorbox.h">
+      <Filter>UI\ParamBar\Box</Filter>
+    </QtMoc>
+    <QtMoc Include="kchoosebox.h">
+      <Filter>UI\ParamBar\Box</Filter>
+    </QtMoc>
+    <QtMoc Include="kparamsbar.h">
+      <Filter>UI\ParamBar\Base</Filter>
+    </QtMoc>
+    <QtMoc Include="kmenubar.h">
+      <Filter>UI\MenuBar</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kshape.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

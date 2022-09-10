@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/add-black.svg</file>
+        <file>icons/add-gray.svg</file>
+        <file>icons/monitoring.svg</file>
+        <file>icons/profile.svg</file>
+        <file>icons/profile2.svg</file>
+        <file>icons/dir.svg</file>
+        <file>icons/dir2.svg</file>
+        <file>icons/add.svg</file>
+        <file>icons/delete.svg</file>
+    </qresource>
+    <qresource prefix="/statuspage">
+        <file>icons/dir2.svg</file>
+        <file>icons/file.svg</file>
+        <file>icons/number.svg</file>
+        <file>icons/rate.svg</file>
+        <file>icons/time.svg</file>
+    </qresource>
+</RCC>

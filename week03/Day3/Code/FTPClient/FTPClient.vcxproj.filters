@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="response">
+      <UniqueIdentifier>{3b5dfe2d-2ca8-4c4b-9375-890431080fd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="request">
+      <UniqueIdentifier>{64c420fe-52cc-4c72-b25a-f0d1236fbba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="socket">
+      <UniqueIdentifier>{da67c485-cb02-4393-a7e3-1a29da9d4313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pubtool">
+      <UniqueIdentifier>{e04fdc25-5185-49bd-b2a6-bdc71fa79b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="command">
+      <UniqueIdentifier>{b43508c0-4066-4653-a1d9-24e223270847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sender">
+      <UniqueIdentifier>{a9091ca9-ba38-4fe2-9aa6-5e57697f73fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="handler">
+      <UniqueIdentifier>{1cc0998e-b817-4afc-a7a5-51fb94fc6c42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client">
+      <UniqueIdentifier>{412b43f1-2be4-4916-98e8-93c80351f9a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ksocket.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kprint.cpp">
+      <Filter>pubtool</Filter>
+    </ClCompile>
+    <ClCompile Include="kutils.cpp">
+      <Filter>pubtool</Filter>
+    </ClCompile>
+    <ClCompile Include="krequest.cpp">
+      <Filter>request</Filter>
+    </ClCompile>
+    <ClCompile Include="ksender.cpp">
+      <Filter>sender</Filter>
+    </ClCompile>
+    <ClCompile Include="kabstractcommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="kresponse.cpp">
+      <Filter>response</Filter>
+    </ClCompile>
+    <ClCompile Include="koptscommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="khandle.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="kusercommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="kpasscommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="kftpclient.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="klistcommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="kgetcommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="kputcommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="kmkdircommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="kdeletecommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="kquitcommand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="KSocketServer.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="kiputils.cpp">
+      <Filter>pubtool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ksocket.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="kconstants.h">
+      <Filter>pubtool</Filter>
+    </ClInclude>
+    <ClInclude Include="kprint.h">
+      <Filter>pubtool</Filter>
+    </ClInclude>
+    <ClInclude Include="kutils.h">
+      <Filter>pubtool</Filter>
+    </ClInclude>
+    <ClInclude Include="krequest.h">
+      <Filter>request</Filter>
+    </ClInclude>
+    <ClInclude Include="ksender.h">
+      <Filter>sender</Filter>
+    </ClInclude>
+    <ClInclude Include="kabstractcommand.h">
+      <Filter>command</Filter>
+    </ClInclude>
+    <ClInclude Include="kresponse.h">
+      <Filter>response</Filter>
+    </ClInclude>
+    <ClInclude Include="koptscommand.h">
+      <Filter>command</Filter>
+    </ClInclude>
+    <ClInclude Include="khandle.h">
+      <Filter>handler</Filter>
+    </ClInclude>
+    <ClInclude Include="kusercommand.h">
+      <Filter>command</Filter>
+    </ClInclude>
+    <ClInclude Include="kpasscommand.h">
+      <Filter>command</Filter>
+    </ClInclude>
+    <ClInclude Include="kftpclient.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="klistcommand.h">
+      <Filter>command</Filter>
+    </ClInclude>
+    <ClInclude Include="kgetcommand.h">
+      <Filter>command</Filter>
+    </ClInclude>
+    <ClInclude Include="kmkdircommand.h">
+      <Filter>command</Filter>
+    </ClInclude>
+    <ClInclude Include="kputcommand.h">
+      <Filter>command</Filter>
+    </ClInclude>
+    <ClInclude Include="kdeletecommand.h">
+      <Filter>command</Filter>
+    </ClInclude>
+    <ClInclude Include="kquitcommand.h">
+      <Filter>command</Filter>
+    </ClInclude>
+    <ClInclude Include="ksocketserver.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="kiputils.h">
+      <Filter>pubtool</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

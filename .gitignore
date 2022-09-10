@@ -1,0 +1,16 @@
+# 忽略当前目录下的Debug文件
+Debug/
+Release/
+*.obj
+x64
+.vs
+# 忽略名称中末尾为ignore的文件夹
+*Debug/
+
+# !是不忽略的意思
+!*.sln 
+!*.vcxproj
+!*.filters
+
+#忽略所有.user结尾的文件
+*.user

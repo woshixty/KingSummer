@@ -1,0 +1,29 @@
+// -------------------------------------------------------
+// kgetcommand.h
+// 创建者： xie tingyu
+// 创建时间： 2022/7/19
+// 功能描述： RETR命令执行器
+// Copyright 2013 Kingsoft
+// --------------------------------------------------------
+
+#ifndef _K_GET_COMMAND_H_
+#define _K_GET_COMMAND_H_
+
+#include "kabstractcommand.h"
+
+class KGetCommand : public KAbstractCommand
+{
+public:
+	KGetCommand();
+	~KGetCommand();
+
+	VOID makeOptUtf8OnPacket(string& packet, list_str& cmdArgs) override;
+	BOOL executeCommand(KSocket* ptcpSocket, list_str& cmdArgs) override;
+	BOOL waitForServerReply(KSocket* ptcpSocket, string& reply) override;
+
+private:
+	unsigned m_dataPort;
+	string m_filename;
+};
+
+#endif

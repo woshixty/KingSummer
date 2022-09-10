@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>KTodoItem</class>
+ <widget class="QWidget" name="KTodoItem">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>580</width>
+    <height>70</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>580</width>
+    <height>70</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>580</width>
+    <height>70</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="m_todocontent_label">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>10</y>
+     <width>500</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Microsoft YaHei;
+text-align: left;
+border:none; background:transparent;</string>
+   </property>
+   <property name="text">
+    <string>去山道健身房健身</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="m_endtime_label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>41</y>
+     <width>120</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Microsoft YaHei;
+text-align: left;
+border:none; background:transparent;</string>
+   </property>
+   <property name="text">
+    <string>7月30日 周六</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="m_priority_btn">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>10</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+         border: none;
+         background: transparent;
+       </string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="kmainwindow.qrc">
+     <normaloff>:/todoitem/icons/priority_high.png</normaloff>:/todoitem/icons/priority_high.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="m_repeat_label">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>41</y>
+     <width>120</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Microsoft YaHei;
+text-align: left;
+border:none; background:transparent;</string>
+   </property>
+   <property name="text">
+    <string>不重复</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="m_remindtime_label">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>41</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Microsoft YaHei;
+text-align: left;
+border:none; background:transparent;</string>
+   </property>
+   <property name="text">
+    <string>7月30日 09:30</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="m_check_btn">
+   <property name="geometry">
+    <rect>
+     <x>18</x>
+     <y>11</y>
+     <width>19</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="line">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>580</width>
+     <height>2</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+background-color: rgb(225, 225, 225);
+background-color: rgb(169, 169, 169);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="kmainwindow.qrc"/>
+ </resources>
+ <connections/>
+</ui>

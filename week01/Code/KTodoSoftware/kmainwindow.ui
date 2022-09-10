@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>KMainWindowClass</class>
+ <widget class="QMainWindow" name="KMainWindowClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1200</width>
+    <height>580</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1200</width>
+    <height>580</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>KTodoList</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="left_up_icon">
+    <property name="geometry">
+     <rect>
+      <x>4</x>
+      <y>4</y>
+      <width>42</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="m_softwarename_label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>6</y>
+      <width>90</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; color:#04b5ad;&quot;&gt;KTODO&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="splite_line">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>55</y>
+      <width>956</width>
+      <height>2</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(4, 181, 173);
+color: rgb(4, 181, 173);
+border: none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="splite_line_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>56</y>
+      <width>2</width>
+      <height>530</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(4, 181, 173);
+color: rgb(4, 181, 173);
+border: none;         </string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="m_myhome_btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>65</y>
+      <width>200</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-align: left;
+border-radius: 8px;
+font-family: Microsoft YaHei;
+color: rgb(4,181,173);
+background-color: rgb(210, 210, 210);</string>
+    </property>
+    <property name="text">
+     <string>我的首页</string>
+    </property>
+    <property name="icon">
+     <iconset resource="kmainwindow.qrc">
+      <normaloff>:/mainwindow/icons/home-on-mouse.png</normaloff>:/mainwindow/icons/home-on-mouse.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="m_mytodos_btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>115</y>
+      <width>200</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>9</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-align: left;
+border-radius: 8px;
+font-family: Microsoft YaHei;</string>
+    </property>
+    <property name="text">
+     <string>我的待办（1）</string>
+    </property>
+    <property name="icon">
+     <iconset resource="kmainwindow.qrc">
+      <normaloff>:/mainwindow/icons/todo.png</normaloff>:/mainwindow/icons/todo.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>80</y>
+      <width>680</width>
+      <height>470</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>970</x>
+      <y>10</y>
+      <width>210</width>
+      <height>540</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="splite_line_3">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>160</y>
+      <width>216</width>
+      <height>2</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(4, 181, 173);
+color: rgb(4, 181, 173);
+border: none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="m_group_list">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>200</width>
+      <height>350</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: none;
+background: transparent;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="m_addgroup_btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>525</y>
+      <width>200</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 4px;
+font-family: Microsoft YaHei;</string>
+    </property>
+    <property name="text">
+     <string>添加分组</string>
+    </property>
+    <property name="icon">
+     <iconset resource="kmainwindow.qrc">
+      <normaloff>:/mainwindow/icons/add.png</normaloff>:/mainwindow/icons/add.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="splite_line_4">
+    <property name="geometry">
+     <rect>
+      <x>955</x>
+      <y>0</y>
+      <width>2</width>
+      <height>580</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(4, 181, 173);
+color: rgb(4, 181, 173);
+border: none;         </string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="kmainwindow.qrc"/>
+ </resources>
+ <connections/>
+</ui>

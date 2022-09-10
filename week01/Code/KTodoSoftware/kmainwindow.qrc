@@ -1,0 +1,50 @@
+<RCC>
+    <qresource prefix="/KMainWindow"/>
+    <qresource prefix="/todoitem">
+        <file>icons/priority_high.png</file>
+        <file>icons/priority_low.png</file>
+        <file>icons/priority_mid.png</file>
+        <file>icons/priority_null.png</file>
+        <file>icons/mul_check.png</file>
+        <file>icons/mul_check_green.png</file>
+        <file>icons/mul_uncheck.png</file>
+        <file>icons/mul_uncheck_green.png</file>
+    </qresource>
+    <qresource prefix="/todoiteminfo">
+        <file>icons/location.png</file>
+        <file>icons/location_green.png</file>
+        <file>icons/description.png</file>
+        <file>icons/description_green.png</file>
+        <file>icons/remark.png</file>
+        <file>icons/remark_green.png</file>
+        <file>icons/clock.png</file>
+        <file>icons/clock_green.png</file>
+        <file>icons/calendar.png</file>
+        <file>icons/calendar_green.png</file>
+    </qresource>
+    <qresource prefix="/appicon">
+        <file>icons/todoist.png</file>
+    </qresource>
+    <qresource prefix="/mainwindow">
+        <file>icons/todo.png</file>
+        <file>icons/home.png</file>
+        <file>icons/home-on-mouse.png</file>
+        <file>icons/add.png</file>
+        <file>icons/add_green.png</file>
+        <file>icons/todo-on-mouse.png</file>
+    </qresource>
+    <qresource prefix="/homepage">
+        <file>icons/refresh.png</file>
+        <file>icons/icon-choose.png</file>
+        <file>icons/icon-choose-green.png</file>
+        <file>icons/icon-unchoose.png</file>
+        <file>icons/icon-unchoose-green.png</file>
+    </qresource>
+    <qresource prefix="/groupitem">
+        <file>icons/move.png</file>
+        <file>icons/move_green.png</file>
+        <file>icons/more_android_light.png</file>
+        <file>icons/more_android_light_green.png</file>
+        <file>icons/sort.png</file>
+    </qresource>
+</RCC>

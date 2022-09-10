@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="kmainwindow.ui">
+      <Filter>Resource Files</Filter>
+    </QtUic>
+    <QtMoc Include="kmainwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="kmainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <QtUic Include="khomepage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ktodoitem.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="kgroupitem.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ktodoiteminfo.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="knewgroupdialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="kmytodoppage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ktodogrouppage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="khomepage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ktodoitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kgroupitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ktodoiteminfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KGroupDao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kgroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kconstants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ktodoitemdao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="knewgroupdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ktodoitem_e.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kmytodoppage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ktodogrouppage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="kmainwindow.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="khomepage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ktodoitem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="kgroupitem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ktodoiteminfo.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="kgroupdao.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="kgroup.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ktodoitemdao.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="knewgroupdialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ktodoitem_e.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="kmytodoppage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ktodogrouppage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kconstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

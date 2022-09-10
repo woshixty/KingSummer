@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/normal/circle.svg</file>
+        <file>icons/normal/hexa.svg</file>
+        <file>icons/normal/line.svg</file>
+        <file>icons/normal/mouse.svg</file>
+        <file>icons/normal/pen.svg</file>
+        <file>icons/normal/pent.svg</file>
+        <file>icons/normal/rect.svg</file>
+        <file>icons/normal/star.svg</file>
+        <file>icons/normal/text.svg</file>
+        <file>icons/normal/zoom.svg</file>
+        <file>icons/selected/circle.svg</file>
+        <file>icons/selected/hexa.svg</file>
+        <file>icons/selected/line.svg</file>
+        <file>icons/selected/mouse.svg</file>
+        <file>icons/selected/pen.svg</file>
+        <file>icons/selected/pent.svg</file>
+        <file>icons/selected/rect.svg</file>
+        <file>icons/selected/star.svg</file>
+        <file>icons/selected/text.svg</file>
+        <file>icons/selected/zoom.svg</file>
+        <file>icons/hover/circle.svg</file>
+        <file>icons/hover/hexa.svg</file>
+        <file>icons/hover/line.svg</file>
+        <file>icons/hover/mouse.svg</file>
+        <file>icons/hover/pen.svg</file>
+        <file>icons/hover/pent.svg</file>
+        <file>icons/hover/rect.svg</file>
+        <file>icons/hover/star.svg</file>
+        <file>icons/hover/text.svg</file>
+        <file>icons/hover/zoom.svg</file>
+        <file>icons/line/dotted.svg</file>
+        <file>icons/line/solid.svg</file>
+    </qresource>
+</RCC>
